@@ -8,7 +8,7 @@
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
     padding:20px 120px 2px 20px;
     margin: 10px;
-    height: 200px
+    min-height: 200px
 }
 .settingstext {
     color:white;
@@ -43,7 +43,10 @@ li {list-style: none}
     position:absolute;
     left: 300px
 }
-p span {position:relative;margin:80px}
+p span {
+    position:relative;
+    margin:75px
+}
 .Addtext {
     position:absolute;
     right: 5px
